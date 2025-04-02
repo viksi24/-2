@@ -184,3 +184,14 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+
+
+
+
+# CREATE TABLE recipes (
+#     id SERIAL PRIMARY KEY,
+#     name TEXT UNIQUE NOT NULL,
+#     ingredients TEXT NOT NULL,
+#     description TEXT NOT NULL
+# );
